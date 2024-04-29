@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>{{ $title }}</title>
-    @vite(['resources/css/app.css','resources/js/app.js'])
+    <link rel="stylesheet" href="{{ asset('build/assets/app-BNBmCBvm.css') }}">
 </head>
 <body>
     <section>
@@ -91,5 +91,6 @@
         </div>
       </section>
 <script src="{{ asset('js/darkmode.js') }}"></script>
+<script src="{{ asset('build/assets/app-D0coJpzG.js') }}"></script>
 </body>
 </html>
